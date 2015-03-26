@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from pukiwiki_converter import *
 
 #=============================
 #       PukiWikiの設定
@@ -30,4 +31,16 @@ MEDIAWIKI_LOGIN_PW = ""
 # ライブラリを編集するときに使うと良いかも
 OTHER_DEBUG_MODE = True
 
+#=============================
+#    ライブラリ呼び出し処理
+#=============================
 
+if __name__ == "__main__":
+	# PukiWikiからデータの取り出し
+	# (この時は変換されていない)
+	pukiwiki_convert(PUKIWIKI_URL, PUKIWIKI_BASIC, MEDIAWIKI_URL, MEDIAWIKI_LOGIN_ID, MEDIAWIKI_LOGIN_PW, OTHER_DEBUG_MODE)
+	
+	# PukiWikiのデータをMediaWikiの形式に変換
+
+	# MediaWikiにアップロード
+	print "Fin"

@@ -38,3 +38,7 @@ MEDIAWIKI_LOGIN_PW = ""
 # (Trueならデバッグモード)
 # ライブラリを編集するときに使うと良いかも
 OTHER_DEBUG_MODE = True
+
+# PukiWikiから取得したデータを一時的に保存するディレクトリ
+# テキストと添付ファイルを保存する
+DATA_CACHE_DIRECTORY = "data"

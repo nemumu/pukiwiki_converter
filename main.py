@@ -38,7 +38,7 @@ OTHER_DEBUG_MODE = True
 if __name__ == "__main__":
 	# PukiWikiからデータの取り出し
 	# (この時は変換されていない)
-	pukiwiki_convert(PUKIWIKI_URL, PUKIWIKI_BASIC, MEDIAWIKI_URL, MEDIAWIKI_LOGIN_ID, MEDIAWIKI_LOGIN_PW, OTHER_DEBUG_MODE)
+	wiki_converter = pukiwiki_convert(PUKIWIKI_URL, PUKIWIKI_BASIC, MEDIAWIKI_URL, MEDIAWIKI_LOGIN_ID, MEDIAWIKI_LOGIN_PW, OTHER_DEBUG_MODE)
 	
 	# PukiWikiのデータをMediaWikiの形式に変換
 

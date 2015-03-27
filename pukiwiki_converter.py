@@ -14,11 +14,20 @@ class pukiwiki_convert:
 		self.mediawiki_login_pw  = mediawiki_login_pw
 		self.other_debug_mode    = other_debug_mode
 		
-		print __name__
+		print "__init__"
 	
-	# PukiWikiのページ一覧から全てのページを取得
+	# PukiWikiのページ一覧から全てのURLを取得
+	def get_all_page_url(self):
+		print "get_all_page_url"
 
 	# PukiWikiから指定URLのページを取得(添付ファイルも含む)
+	def get_page(self):
+		print "get_page"
+	
+	# PukiWikiの形式からMediaWikiの形式
+	def __p2m_convert(self):
+		print "convert"
 	
 	# データをMediaWikiにアップロード
-
+	def mediawiki_upload(self):
+		print "mediawiki_upload"

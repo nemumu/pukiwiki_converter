@@ -5,7 +5,7 @@ from config import *
 if __name__ == "__main__":
 	# PukiWikiからデータの取り出し
 	# (この時は変換されていない)
-	wiki_converter = pukiwiki_convert(PUKIWIKI_URL, PUKIWIKI_BASIC, MEDIAWIKI_URL, MEDIAWIKI_LOGIN_ID, MEDIAWIKI_LOGIN_PW, OTHER_DEBUG_MODE)
+	wiki_converter = pukiwiki_convert(PUKIWIKI_URL, PUKIWIKI_BASIC, PUKIWIKI_BASIC_ID, PUKIWIKI_BASIC_PW, MEDIAWIKI_URL, MEDIAWIKI_LOGIN_ID, MEDIAWIKI_LOGIN_PW, OTHER_DEBUG_MODE)
 	
 	# PukiWikiのデータをMediaWikiの形式に変換
 
